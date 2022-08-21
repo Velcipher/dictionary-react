@@ -44,7 +44,7 @@ function ResponseApiPhoto (response) {
 function SearchApiWord (){
 const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
 axios.get(apiUrl).then(ResponseApiWord)
-console.log(word)
+
 
 const ApiKey = `fTlU3moSD_S4kaj9jmPIeRu_I2LJAQ3sqBgvIZHX4Fs`
 const PhotoapiUrl = `https://api.unsplash.com/search/photos?page=1&query=${word}&client_id=${ApiKey}&per_page=6&orientation=landscape`
