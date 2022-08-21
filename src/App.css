@@ -25,9 +25,7 @@
 .book-img {
     width: 90px;
 }
-.white {
-    background: white;
-}
+
 .text {
     scroll-behavior: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
