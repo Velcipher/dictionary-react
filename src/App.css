@@ -1,0 +1,145 @@
+
+    .App {
+        background-image: url('./2.png');
+        padding-top: 15%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+       
+    }
+    .container-fluid {
+        width: 100%;
+        max-width: 1000px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+       margin-bottom: 0;
+       margin-top: 0;
+       min-height: 400px;
+        background-color: rgba(0, 0, 0, 0.308);
+        background-repeat: no-repeat ;
+       
+        
+    
+}
+.book-img {
+    width: 90px;
+}
+.white {
+    background: white;
+}
+.text {
+    scroll-behavior: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-size: 30px;
+}
+.text a{
+    text-decoration: none;
+}
+
+.ResultPhotoes {
+    
+    width: 100%;
+    
+}
+.search {
+    width: 100%;
+     background: #000000b0;
+   border: none;
+   padding: 15px 20px;
+   display: inline-block;
+   border-radius: 6px;
+   font-size: 16px;
+   height: 50px;
+   line-height: 20px;
+   color: white;
+ }
+ input::placeholder {
+     font-weight: bold;
+     opacity: 1;
+     color: rgb(145, 145, 145);
+ }
+ .btn-control {
+     
+         background: #89c0ffd8;
+         font-weight: bold;
+         font-size: 16px;
+         padding: 10px;
+         
+         border: none;
+         height: 50px;
+ }
+ .Null {
+    
+    background-image: url('./5.png');
+    background-size:100%;
+  
+    background-repeat: no-repeat;
+ }
+ .Null .text {
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    padding-bottom: 41%;
+    color: rgb(0, 0, 0);
+ }
+ .gitHub {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+ #photoes{
+display: flex;
+flex-wrap: wrap !important;
+justify-content: center;
+ }
+ .card {
+    max-width: 300px;
+    border: none;
+    background: none;
+ }
+ .photo {
+
+max-width: 300px;
+max-height: 200px;
+
+    
+ }
+ @media (max-width: 600px){
+
+.text {
+    font-size: 20px;
+    
+   
+}
+ }
+@media (max-width: 400px){
+    .container-fluid {
+        padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    }
+    .gitHub {
+        font-size: 14px;
+    }
+}
+.noun {
+    color: blue;
+    font-size: 25px;
+    font-weight: 900;
+}
+.example {
+    color: black;
+}
+.Meanings {
+    margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.308);
+    padding: 20px;
+}
