@@ -4,6 +4,7 @@
         padding-top: 15%;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-color: #9fe1fcd8;
        
     }
     .container-fluid {
@@ -80,7 +81,7 @@
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0);
     margin: 0 auto;
-    padding-bottom: 41%;
+    padding-bottom: 47%;
     color: rgb(0, 0, 0);
  }
  .gitHub {
@@ -124,6 +125,9 @@ max-height: 200px;
     }
     .gitHub {
         font-size: 14px;
+    }
+    .Null .text {
+        padding-bottom: 39%;
     }
 }
 .noun {
