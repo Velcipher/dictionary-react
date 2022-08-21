@@ -24,7 +24,7 @@ SearchApiWord()
 
 function HandSubmit (event) {
 setWord(event.target.value)
-SearchApiWord()
+
 }
 
 function ResponseApiWord(response){
@@ -32,15 +32,13 @@ setWordData({
   
   word: response.data[0].word,
   phonetics: response.data[0].phonetics,
-  
   meanings: response.data[0].meanings
 })
-console.log(response)
+
 }
 
 function ResponseApiPhoto (response) {
   setPhotos(response.data.results)
-  console.log(response)
 }
 
 function SearchApiWord (){

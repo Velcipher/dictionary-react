@@ -1,9 +1,8 @@
 import React from "react";
 
 function Phonetic (props) {
-    console.log(props.phonetics)
-if (props.phonetics)
-   {console.log('OK') 
+    
+if (props.phonetics){ 
    
     return (
         <div className="Phonetic">

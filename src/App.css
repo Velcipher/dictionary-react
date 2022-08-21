@@ -17,7 +17,7 @@
        margin-bottom: 0;
        margin-top: 0;
        min-height: 400px;
-        background-color: rgba(0, 0, 0, 0.308);
+        background-color: rgba(0, 0, 0, 0.0);
         background-repeat: no-repeat ;
        
         
@@ -70,6 +70,9 @@
          border: none;
          height: 50px;
  }
+ .wordHeader {
+    background-color: rgba(0, 0, 0, 0.308);
+ }
  .Null {
     
     background-image: url('./5.png');
@@ -90,7 +93,7 @@
     margin: 0 auto;
     margin-top: 10px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.0);
 }
  #photoes{
 display: flex;
@@ -140,6 +143,6 @@ max-height: 200px;
 }
 .Meanings {
     margin-bottom: 50px;
-    background: rgba(255, 255, 255, 0.308);
+    background: rgba(0, 0, 0, 0.308);
     padding: 20px;
 }
